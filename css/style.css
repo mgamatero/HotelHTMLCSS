@@ -247,6 +247,7 @@ left:8rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .banner-heading{
@@ -254,11 +255,13 @@ left:8rem;
     font-size: 7rem;
     margin-bottom: 0;
     font-weight: 400;
+    animation: anim 2s;
 }
 
 .banner-paragraph{
     font-size: 3.5rem;
     font-weight: 300;
+    animation: anim 1.5s .5s backwards;
 }
 
 .banner-button{
@@ -272,7 +275,7 @@ left:8rem;
     outline:none;
     background: linear-gradient(to right, gold, goldenrod);
     cursor: pointer;
-    
+    animation: anim 1s 1s backwards;
 }
 
 .banner-button:hover{
@@ -281,5 +284,14 @@ left:8rem;
 
 .banner-button:active{
     transform: translateY(.2rem)
+}
+
+@keyframes anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:100;
+    }
 }
 /* header end */
