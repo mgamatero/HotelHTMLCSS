@@ -137,9 +137,65 @@ cursor: pointer;
 
 .navigation-list{
     list-style: none;
-    font-size: 2rem;
+    padding: 0;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
+.navigation-item{
+    position: relative;
+}
 
+.navigation-link{
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .5s;
+    
+}
+
+.navigation-link::before{
+    content:'';
+    width:0rem;
+    height:.1rem;
+    background-color: #deaa86;
+    position:absolute;
+    top:.6rem;
+    left:-4rem;
+    transition: width .5s;
+   
+}
+.navigation-link::after{
+    content:'';
+    width:0rem;
+    height:.1rem;
+    background-color: #deaa86;
+    position:absolute;
+    top:.6rem;
+    right:-4rem;
+    transition: width .5s;
+    
+}
+
+.navigation-link:hover {
+    color:#deaa86;
+}
+
+.navigation-link:hover::before,
+.navigation-link:hover::after{
+    width:3rem;
+}
+
+.copyright{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
 /* navigation end */
 /* navbar end */
