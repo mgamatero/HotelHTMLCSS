@@ -76,7 +76,7 @@ cursor: pointer;
 
 /* navigation */
 .navigation{
-    margin-left: -32rem;
+    left: -32rem;
     position: fixed;
     width: 40rem;
     height: 100%;
@@ -88,7 +88,7 @@ cursor: pointer;
     justify-content:space-between;
     align-items: center;
     color: #deaa86;
-    transition: left .8s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: left 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .navigation-heading{
@@ -200,11 +200,9 @@ cursor: pointer;
 
 /* general sibling */
 .checkbox:checked ~ .navigation{
-left:40rem;
+left:8rem;
 }
 
-.checkbox{
-    display: none;
-}
+
 /* navigation end */
 /* navbar end */
