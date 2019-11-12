@@ -28,6 +28,7 @@ font-family: 'Monserrat', sans-serif;
 .menu-icon{
 margin-top: 3rem;
 cursor: pointer;
+position:relative;
 }
 
 .line{
@@ -39,7 +40,7 @@ cursor: pointer;
 
 .line-1, .line-3{
     width:1.8rem;
-    transition: width .3s;
+    transition: all .5s;
 }
 
 .menu-icon:hover .line{
@@ -203,6 +204,17 @@ cursor: pointer;
 left:8rem;
 }
 
+/*hamburger X*/
+.checkbox:checked ~ .sidebar .line-1{
+    transform:rotate(-405deg) translate(-5px, 6px);
+}
 
+.checkbox:checked ~ .sidebar .line-2{
+    opacity:0;
+}
+
+.checkbox:checked ~ .sidebar .line-3{
+    transform: rotate(405deg)  translate(-5px, -6px);
+}
 /* navigation end */
 /* navbar end */
