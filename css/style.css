@@ -79,6 +79,67 @@ cursor: pointer;
 .navigation{
     margin-left: 8rem;
     position: fixed;
+    width: 40rem;
+    height: 100%;
+    background: linear-gradient(to top,rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)), url(../img/nav-bg.jpeg) center no-repeat;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    color: #deaa86;
 }
+
+.navigation-heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.navigation-search-input{
+    width: 30rem;
+    padding: 1rem 2rem;
+    background-color: rgba(0,0,0,.3);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #deaa86;
+    letter-spacing: .1rem;
+    outline: none;
+    transition: background-color .3s;
+    border: .1rem solid #555;
+    border-radius: 10rem;
+}
+
+.navigation-search-input:focus{
+    background-color: rgba(0,0,0,.1)
+}
+
+
+/* .navigation-search{
+    position: relative;
+} */
+
+
+ .navigation-search-btn{
+     border:none;
+     background-color: transparent;
+     color: #deaa86;
+     font-size: 1.7rem;
+     
+     cursor: pointer;
+     outline:none;
+     /* position:absolute; */
+     
+ }
+
+.navigation-list{
+    list-style: none;
+    font-size: 2rem;
+}
+
+
 /* navigation end */
 /* navbar end */
