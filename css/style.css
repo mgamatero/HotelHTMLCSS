@@ -322,7 +322,7 @@ left:8rem;
     color: #555;
 }
 
-.small-underline{
+/* .small-underline{
     width: 9rem;
     height:.1rem;
     background-color: #b85d1c;
@@ -332,7 +332,7 @@ left:8rem;
     width: 20rem;
     height:.1rem;
     background-color: #b85d1c;
-}
+} */
 
 .about-us-images {
     flex: 1 1;
@@ -403,6 +403,115 @@ left:8rem;
 
 /* about us end */
 
+
+/* common-header */
+.common-header{
+    padding: 5rem;
+    text-align: center;
+    color: #b85d1c;
+}
+
+.common-heading{
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+}
+
+.small-underline{
+    width: 9rem;
+    height:.1rem;
+    margin: auto;
+    background-color: #b85d1c;
+    margin: 0 auto 1rem auto;
+}
+.big-underline{
+    width: 20rem;
+    height:.1rem;
+    margin: auto;
+    background-color: #b85d1c;
+}
+/*  common-header end*/
+
+
+/* .rooms */
 .rooms{
     margin-left: 8rem;
 }
+
+.rooms-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.room-card{
+    width: 60rem;
+    margin: 5rem;
+    background-color: #15141b;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,.3);
+}
+
+.room-img{
+    width: 100%;
+}
+
+.room-card-content{
+    color: #ddd;
+    padding: 2rem;
+}
+
+.room-card-heading{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.room-card-paragraph{
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.room-price{
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: right;
+    margin:0;
+}
+
+.room-card-btn{
+    width: 15rem;
+    padding: 1.5rem 1rem;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #b85d1c;
+    background-color: transparent;
+    border: .1rem solid #b85d1c;
+    border-radius: 10rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.rooms-btn-wrapper{
+    text-align: center;
+}
+
+.rooms-btn{
+width: 20rem;
+padding: 1.5rem 1rem;
+margin: 4rem 0;
+background-color: transparent;
+text-transform: uppercase;
+color: #b85d1c;
+border: .2rem solid #b85d1c;
+cursor: pointer;
+box-shadow: 0 1.5rem 6rem rgba(0,0,0,.2);
+}
+
+.rooms-btn:hover{
+    color: #ddd;
+    background-color: #b85d1c;
+    transition: all .2s;
+}
+/* rooms :end */
