@@ -777,6 +777,25 @@ box-shadow: 0 1.5rem 6rem rgba(0,0,0,.2);
     }
 }
 
+.hotel-heading{
+    font-size: 2rem;
+    margin: auto 0;
+}
+
+.banner-paragraph{
+    font-size: 2rem;
+}
+
+.banner{
+    height: 100%;
+    margin-top: -10px;
+
+}
+
+.banner-heading{
+    font-size: 3rem;
+}
+
 .image{
     width: 13rem;
 }
@@ -784,5 +803,69 @@ box-shadow: 0 1.5rem 6rem rgba(0,0,0,.2);
 .about-us{
     padding-bottom: 15rem;
 }
+
+.about-us-heading{
+    font-size: 2.5rem;
+    text-align: center;
 }
-    
+
+.sub-heading{
+    font-size: 2rem;
+    text-align:center;
+}
+
+.about-us-content{
+    padding:5rem;
+}
+
+.common-heading{
+    font-size: 2rem;
+}
+
+.small-underline{
+    width: 5rem;
+}
+
+.big-underline{
+    width:12rem;
+}
+
+.room-card-heading{
+    font-size: 1.5rem;
+}
+
+.room-price{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.room-card-btn{
+    width: 12rem;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+}
+
+.customers-paragraph{
+    font-size: 1.4rem;
+    width: 80%;
+}
+
+.main-part{
+    padding: 2rem;
+}
+
+.footer-input{
+    width: 12rem;
+}
+
+.image-wrapper{
+    width:9rem;
+    margin:2px;
+}
+
+.gallery-images{
+    justify-content: center;
+
+}
+}
