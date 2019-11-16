@@ -5,4 +5,4 @@ Html, CSS, Flexbox
 
 Fully responsive
 
-(mgamatero.github.io/HotelHTMLCSS)
+[mgamatero.github.io/HotelHTMLCSS]
