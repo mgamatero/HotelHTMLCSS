@@ -119,9 +119,9 @@ position:relative;
 }
 
 
-/* .navigation-search{
-    position: relative;
-} */
+.navigation-search{
+    position:relative;
+}
 
 
  .navigation-search-btn{
@@ -129,10 +129,11 @@ position:relative;
      background-color: transparent;
      color: #deaa86;
      font-size: 1.7rem;
-     
      cursor: pointer;
      outline:none;
-     /* position:absolute; */
+     position:absolute;
+     top:1rem;
+     right:1rem;
      
  }
 
